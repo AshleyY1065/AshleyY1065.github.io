@@ -1,3 +1,6 @@
+# This is a template that I used for an efficient and robust portfolio site!
+
+----
 # Dopefolio 🔥
 
 ## A Blazing Fast Multipage Portfolio Template for Developers 🚀
