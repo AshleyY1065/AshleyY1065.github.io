@@ -568,15 +568,29 @@ textarea {
   font-size: 1.6rem;
 }
 
+.contact__btns {
+  display: flex;
+  justify-content: center;
+}
+
 .contact__btn {
-  width: 30%;
+  width: 300px;
   padding: 2rem 4rem;
   font-size: 1.6rem;
+  margin: 8px;
+}
+
+.contact__btn__submit {
+  padding: 2rem 4rem;
+  font-size: 1.6rem;
+  margin: 8px;
 }
 
 @media only screen and (max-width: 37.5em) {
-  .contact__btn {
-    width: 100%;
+  .contact__btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
 

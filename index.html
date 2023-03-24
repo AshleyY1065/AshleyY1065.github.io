@@ -15,12 +15,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
     rel="stylesheet" />
 </head>
-  
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSXBGFHG3M"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-WSXBGFHG3M');
@@ -317,16 +317,18 @@
           hesitate to contact me.
         </span>
         <span class="heading-sec__sub heading-sec__sub--lt">
-          <button class="btn btn--med contact_btn" data-view-component="true">
-          <a href="https://github.com/AshleyY1065/AshleyY1065.github.io/blob/master/assets/docs/ResumeAshleyYarbrough.pdf"
-          download>Download Resume PDF</a>
-          </button>
+          <div class="contact__btns">
+            <button class="btn btn--med contact__btn" data-view-component="true">
+              <a href="./assets/docs/ResumeAshleyYarbrough.pdf" target='_blank'>Download Resume PDF
+              </a>
+            </button>
+            <button class="btn contact__btn" data-view-component="true">
+              <a href="mailto: AshleyY1065@gmail.com">AshleyY1065@gmail.com</a>
+            </button>
+          </div>
         </span>
       </h2>
       <div class="contact__form-container">
-        <button class="btn btn--med contact_btn btn--theme">
-          <a href="mailto: AshleyY1065@gmail.com">AshleyY1065@gmail.com</a>
-        </button>
         <form action="https://formspree.io/f/mbjegvnp" method="POST" class="contact__form">
           <div class="contact__form-field">
             <label class="contact__form-label" for="name">Name</label>
@@ -343,7 +345,7 @@
             <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
               name="message" id="message"></textarea>
           </div>
-          <button type="submit" class="btn btn--theme contact__btn">
+          <button type="submit" class="btn btn--theme contact__btn__submit">
             Submit
           </button>
         </form>
